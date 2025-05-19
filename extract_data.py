@@ -14,7 +14,7 @@ def extract_phone_numbers(text):
 
 def extract_credit_cards(text):
     pattern = r'\b(?:\d{4}[-\s]?){3}\d{4}\b'
-    return re.findall(pattern, text)
+    return re.findall(pattern, 
 
 def extract_hashtags(text):
     pattern = r'#[a-zA-Z0-9_]+'
